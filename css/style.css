@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: 100px 300px 100px 100px 100px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.firstview {
+  grid-column: 2/3;
+  grid-row: 2/5;
+}
+
+h1 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.box {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-color: blue;
+}
